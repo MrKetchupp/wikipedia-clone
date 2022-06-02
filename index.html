@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wikipedia</title>
+    <link rel="icon" href="./svg/wiki-icon.svg">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <header class="header">
@@ -15,10 +18,191 @@
                 <img class="header__logo-img" src="./img/Wikipedia-logo.png" alt="Wikipedia Logo">
             </figure>
             <div class="header__text">
-                <span class="header__titulo">Wikipedia</span>
+                <figure class="header__logo">
+                    <img class="header__logo-svg" src="./svg/wikipedia.svg" alt="Wikipedia">
+                </figure>
                 <span class="header__subtitulo">La enciclopedia libre</span>
             </div>
         </nav>
     </header>
+    <main class="main">
+        <section class="search">
+                <input type="text" class="search__input">
+                <ul class="search__idiomas">
+                    <li class="search__idioma">English</li>
+                    <li class="search__idioma">Español</li>
+                    <li class="search__idioma">Euskara</li>
+                    <li class="search__idioma">Français</li>
+                    <li class="search__idioma">한국어</li>
+                </ul>
+                <button class="search__button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+        </section>
+        <section class="idiomas">
+            <button class="idiomas__button">
+                <span class="idioma__nombre">Español</span>
+                <p class="idioma__info">1 755 00+ articulos</p>
+            </button>
+            <button class="idiomas__button">
+                <span class="idioma__nombre">English</span>
+                <p class="idioma__info">6 458 00+ articles</p>
+            </button>
+            <button class="idiomas__button">
+                <span class="idioma__nombre">日本語</span>
+                <p class="idioma__info">1 314 00+ 記事</p>
+            </button>
+            <button class="idiomas__button">
+                <span class="idioma__nombre">Русский</span>
+                <p class="idioma__info">1 742 00+ статей</p>
+            </button>
+            <button class="idiomas__button">
+                <span class="idioma__nombre">Deutsch</span>
+                <p class="idioma__info">2 667 000+ Artikel</p>
+            </button>
+            <button class="idiomas__button">
+                <span class="idioma__nombre">Français</span>
+                <p class="idioma__info">2 400 000+ articles</p>
+            </button>
+            <button class="idiomas__button">
+                <span class="idioma__nombre">Italiano</span>
+                <p class="idioma__info">1 742 000+ voci</p>
+            </button>
+            <button class="idiomas__button">
+                <span class="idioma__nombre">中文</span>
+                <p class="idioma__info">1 256 000+ 条目 / 條目</p>
+            </button>
+            <button class="idiomas__button">
+                <span class="idioma__nombre">Português</span>
+                <p class="idioma__info">1 085 000+ artigos</p>
+            </button>
+            <button class="idiomas__button">
+                <span class="idioma__nombre">العربية</span>
+                <p class="idioma__info">1 159 000+ مقالة</p>
+            </button>
+        </section>
+        <section class="traductor">
+            <div class="traductor__caja">
+                <img src="./svg/translate.svg" alt="traductor">
+                <span class="traductor__text">Leer Wikipedia en tu idioma</span>
+                <img src="./svg/arror-down.svg" alt="Flecha abajo">
+            </div>
+        </section>
+        <hr>
+        <section class="fundacion">
+            <figure class="fundacion__logo">
+                <img src="./svg/wikimedia-logo.svg" alt="">
+            </figure>
+            <span>Wikipedia es alojada por la Fundación Wikimedia, una organización sin fines de lucro que también alberga una gama de otros proyectos.</span>
+            <a href="#">Puedes apoyar nuestro trabajo con una donación.</a>
+        </section>
+        <section class="wikis">
+            <button class="wiki">
+                <figure class="wiki__logo">
+                    <img src="./svg/commons.svg" alt="Commons">
+                </figure>
+                <span class="wiki__name">Commons</span>
+                <p class="wiki__info">Fotos libremente utilizables y más</p>
+            </button>
+            <button class="wiki">
+                <figure class="wiki__logo">
+                    <img src="./svg/wikiviajes.svg" alt="Wikiviajes">
+                </figure>
+                <span class="wiki__name">Wikiviajes</span>
+                <p class="wiki__info">La guía de viajes libre</p>
+            </button>
+            <button class="wiki">
+                <figure class="wiki__logo">
+                    <img src="./svg/wikcionario.svg" alt="Wikcionario">
+                </figure>
+                <span class="wiki__name">Wikcionario</span>
+                <p class="wiki__info">El diccionario libre</p>
+            </button>
+            <button class="wiki">
+                <figure class="wiki__logo">
+                    <img src="./svg/wikilibros.svg" alt="Wikilibros">
+                </figure>
+                <span class="wiki__name">Wikilibros</span>
+                <p class="wiki__info">Libros de contenido libre</p>
+            </button>
+            <button class="wiki">
+                <figure class="wiki__logo">
+                    <img src="./svg/wikinews.svg" alt="Wikinoticias">
+                </figure>
+                <span class="wiki__name">Wikinoticias</span>
+                <p class="wiki__info">La fuente de noticias libres</p>
+            </button>
+            <button class="wiki">
+                <figure class="wiki__logo">
+                    <img src="./svg/wikidata.svg" alt="Wikidata">
+                </figure>
+                <span class="wiki__name">Wikidata</span>
+                <p class="wiki__info">Base de conocimiento libre</p>
+            </button>
+            <button class="wiki">
+                <figure class="wiki__logo">
+                    <img src="./svg/wikiversidad.svg" alt="Wikiversidad">
+                </figure>
+                <span class="wiki__name">Wikiversidad</span>
+                <p class="wiki__info">Plataforma educativa libre</p>
+            </button>
+            <button class="wiki">
+                <figure class="wiki__logo">
+                    <img src="./svg/wikiquote.svg" alt="Wikiquote">
+                </figure>
+                <span class="wiki__name">Wikiquote</span>
+                <p class="wiki__info">La colección de citas</p>
+            </button>
+            <button class="wiki">
+                <figure class="wiki__logo">
+                    <img src="./svg/mediawiki.svg" alt="Mediawiki">
+                </figure>
+                <span class="wiki__name">Mediawiki</span>
+                <p class="wiki__info">Aplicación wiki libre y abierta</p>
+            </button>
+            <button class="wiki">
+                <figure class="wiki__logo">
+                    <img src="./svg/wikisource.svg" alt="Wikisource">
+                </figure>
+                <span class="wiki__name">Wikisource</span>
+                <p class="wiki__info">La biblioteca libre</p>
+            </button>
+            <button class="wiki">
+                <figure class="wiki__logo">
+                    <img src="./svg/wikispecies.svg" alt="Wikispecies">
+                </figure>
+                <span class="wiki__name">Wikispecies</span>
+                <p class="wiki__info">Directorio de especies libre</p>
+            </button>
+            <button class="wiki">
+                <figure class="wiki__logo">
+                    <img src="./svg/meta-wiki.svg" alt="Meta-Wiki">
+                </figure>
+                <span class="wiki__name">Meta-Wiki</span>
+                <p class="wiki__info">Coordinación y documentación</p>
+            </button>
+        </section>
+        <section class="app">
+            <figure class="app__icon">
+                <img class="app__icon-svg" src="./svg/wiki-icon.svg" alt="Wikipedia icono">
+            </figure>
+            <span class="app__title">Descargar Wikipedia para Android o iOS</span>
+            <p class="app__info">Guarda tus artículos favoritos para leerlos sin conexión, sincroniza tus listas de lectura en varios dispositivos y personaliza tu experiencia de lectura con la aplicación oficial de Wikipedia.</p>
+            <ul class="app__stores">
+                <li class="app__list">
+                    <img class="app__img" src="./svg/app-store.svg" alt="App Store">
+                </li>
+                <li class="app__list">
+                    <img class="app__img" src="./svg/play-store.svg" alt="Plat Store">
+                </li>
+            </ul>
+        </section>
+    </main>
+    <hr>
+    <footer class="footer">
+        <p class="footer__text">Esta página esta bajo la <a class="footer__link" href="https://creativecommons.org/licenses/by-sa/3.0/">licencia Creative Commons Atribución-CompartirIgual</a></p>
+        <a class="footer__link" href="https://meta.wikimedia.org/wiki/Terms_of_use/es">Términos de uso</a>
+        <a class="footer__link" href="https://meta.wikimedia.org/wiki/Privacy_policy/es">Normativa de privacidad</a>
+    </footer>
 </body>
 </html>
