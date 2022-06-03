@@ -6,27 +6,15 @@
 --davys-grey: #54595dff;
 }
 
-/* Fuentes */
-@font-face {
-    font-family: Wiki-old;
-    src: local("../font/Bienetresocial.ttf") ;
-}   
-
-@font-face {
-    font-family: 'wiki-new', Georgia;
-    src: local("../font/Vegur-Yg1a.otf");
-}
-
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Lato', sans-serif;
 }
 
 html {
     font-size: 62.5%;
-    font-family: wiki-new;
 }
 /* Estilos de header */
 .header {
@@ -70,6 +58,7 @@ html {
 .header__subtitulo {
     font-size: 1.5rem;
     text-align: center;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
 }
 /* Estilos de main */
 
@@ -148,4 +137,32 @@ html {
 .idiomas__info {
     font-size: 1.3rem;
     color: var(--davys-grey);
+}
+
+/* Comienza la seccion de traductor */
+.traductor {
+    width: 60%;
+    height: 36px;
+    border: 1px var(--silver-metallic) solid;
+    background-color: var(--cultured);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.traductor__text {
+    font-size: 1.4rem;
+    color: var(--true-blue);
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+
+.hr {
+    clear: both;
+    height: 0;
+    border: none;
+    border-bottom: 1px solid #c8ccd1;
+    margin: 0.26rem 1.3rem;
 }
