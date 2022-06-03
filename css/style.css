@@ -1,3 +1,12 @@
+:root {
+--true-blue: #3366ccff;
+--light-gray: #c8ccd1ff;
+--silver-metallic: #a2a9b1ff;
+--cultured: #f8f9faff;
+--davys-grey: #54595dff;
+}
+
+/* Fuentes */
 @font-face {
     font-family: Wiki-old;
     src: local("../font/Bienetresocial.ttf") ;
@@ -19,4 +28,87 @@ html {
     font-size: 62.5%;
     font-family: wiki-new;
 }
+/* Estilos de header */
+.header {
+    border: 2px red dotted;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: flex-end;
+}
 
+.header__menu {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    border: 2px blueviolet dotted;
+}
+
+.header__logo1 {
+    flex-basis: 30%;
+    width: auto;
+    height: 100%;
+}
+
+.header__logo-svg {
+    max-width: 100%;
+    height: 100%;
+}
+
+.header__text {
+    flex-basis: 80%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-indent: 0.2rem;
+}
+
+.header__logo2 {
+    max-width: 100%;
+    height: 50%;
+}
+
+.header__subtitulo {
+    font-size: 1.4rem;
+    text-align: center;
+}
+/* Estilos de main */
+
+/* Barra de busqueda */
+.search {
+    /* border: 2px var(--silver-metallic) solid; */
+    width: 96%;
+    height: 45px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.search__input {
+    border: 1px var(--silver-metallic) solid;
+    border-radius: 2px;
+    flex-basis: 87%;
+    outline: none;
+}
+
+.search__input:focus {
+    border: 1px var(--true-blue) solid;
+    box-shadow: inset 0 0 0 1px #36c;
+    outline: 0;
+}
+
+.search__idiomas {
+    position: absolute;
+    right: 17%;
+    margin: 2px 0 1px 0;
+    height: 40px;
+    border: none;
+    outline: none;
+    color: var(--davys-grey);
+}
+
+.search__button {
+    flex-basis: 13%;
+    border: 1px var(--true-blue) solid;
+    background-color: var(--true-blue);
+}

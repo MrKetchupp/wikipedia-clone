@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html label="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,11 +14,11 @@
 <body>
     <header class="header">
         <nav class="header__menu">
-            <figure class="header__logo">
-                <img class="header__logo-img" src="./img/Wikipedia-logo.png" alt="Wikipedia Logo">
+            <figure class="header__logo1">
+                <img class="header__logo-svg" src="./svg/Wikipedia-logo-v2.svg" alt="Wikipedia Logo">
             </figure>
             <div class="header__text">
-                <figure class="header__logo">
+                <figure class="header__logo2">
                     <img class="header__logo-svg" src="./svg/wikipedia.svg" alt="Wikipedia">
                 </figure>
                 <span class="header__subtitulo">La enciclopedia libre</span>
@@ -27,19 +27,19 @@
     </header>
     <main class="main">
         <section class="search">
-                <input type="text" class="search__input">
-                <ul class="search__idiomas">
-                    <li class="search__idioma">English</li>
-                    <li class="search__idioma">Español</li>
-                    <li class="search__idioma">Euskara</li>
-                    <li class="search__idioma">Français</li>
-                    <li class="search__idioma">한국어</li>
-                </ul>
-                <button class="search__button">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </button>
+            <input type="text" class="search__input">
+            <select class="search__idiomas" name="idiomas">
+                    <option class="search__idioma" value="English" label="EN">English</option>
+                    <option class="search__idioma" value="Español" label="ES">Español</option>
+                    <option class="search__idioma" value="Euskara" label="EU">Euskara</option>
+                    <option class="search__idioma" value="Français" label="FA">Français</option>
+                    <option class="search__idioma" value="한국어" label="KO">한국어</option>
+            </select>
+            <button class="search__button">
+                <img src="./svg/search-white.svg" alt="search">
+            </button>
         </section>
-        <section class="idiomas">
+        <!-- <section class="idiomas">
             <button class="idiomas__button">
                 <span class="idioma__nombre">Español</span>
                 <p class="idioma__info">1 755 00+ articulos</p>
@@ -203,6 +203,6 @@
         <p class="footer__text">Esta página esta bajo la <a class="footer__link" href="https://creativecommons.org/licenses/by-sa/3.0/">licencia Creative Commons Atribución-CompartirIgual</a></p>
         <a class="footer__link" href="https://meta.wikimedia.org/wiki/Terms_of_use/es">Términos de uso</a>
         <a class="footer__link" href="https://meta.wikimedia.org/wiki/Privacy_policy/es">Normativa de privacidad</a>
-    </footer>
+    </footer> -->
 </body>
 </html>
