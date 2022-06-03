@@ -30,7 +30,6 @@ html {
 }
 /* Estilos de header */
 .header {
-    border: 2px red dotted;
     width: 100vw;
     height: 10vh;
     display: flex;
@@ -42,7 +41,6 @@ html {
     height: auto;
     margin: 0 auto;
     display: flex;
-    border: 2px blueviolet dotted;
 }
 
 .header__logo1 {
@@ -70,7 +68,7 @@ html {
 }
 
 .header__subtitulo {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 /* Estilos de main */
@@ -111,4 +109,43 @@ html {
     flex-basis: 13%;
     border: 1px var(--true-blue) solid;
     background-color: var(--true-blue);
+}
+
+/* Comienza diseño de los idiomas */
+
+.idiomas {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.idiomas__button {
+    flex-basis: 28%;
+    height: 54px;
+    margin: 4% auto;
+    border: none;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.idiomas__button:hover {
+    background-color: var(--cultured);
+}
+
+.idiomas__button-last {
+    margin-left: 2.6%;
+}
+
+.idiomas__nombre {
+    font-size: 1.4rem;
+    color: var(--true-blue);
+    font-weight: 600;
+}
+
+.idiomas__info {
+    font-size: 1.3rem;
+    color: var(--davys-grey);
 }
