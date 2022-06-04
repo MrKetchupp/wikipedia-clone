@@ -166,3 +166,88 @@ html {
     border-bottom: 1px solid #c8ccd1;
     margin: 0.26rem 1.3rem;
 }
+
+/* Comienza diseño de Fundacion */
+.fundacion {
+    width: 95%;
+    margin: auto 2.5%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.fundacion__logo {
+    width: 10%;
+    height: auto;
+    margin: 10px 45%;
+}
+
+.fundacion__svg {
+    max-width: 100%;
+    height: auto;
+}
+
+.fundacion__descripcion {
+    font-size: 1.3rem;
+    text-align: center;
+    color: var(--davys-grey);
+    line-height: 1.5;
+}
+
+.fundacion__link {
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    color: var(--true-blue);
+}
+
+/* Comienza diseño de wikis */
+.wikis {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wiki {
+    width: auto;
+    height: 90px;
+    flex-basis: 50%;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: none;
+    background-color: white;
+}
+
+.wiki:hover {
+    background-color: var(--cultured);
+}
+
+.wiki__logo {
+    flex-basis: 30%;
+    height: auto;
+}
+
+.wiki__svg {
+    max-width: 100%;
+    height: auto;
+}
+
+.wiki__text {
+    flex-basis: 70%;
+    text-align: start;
+    line-height: 1.5;
+}
+
+.wiki__name {
+    font-size: 1.4rem;
+    color:  var(--true-blue);
+}
+
+.wiki__info {
+    font-size: 1.3rem;
+    color: var(--davys-grey);
+}
