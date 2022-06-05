@@ -251,3 +251,51 @@ html {
     font-size: 1.3rem;
     color: var(--davys-grey);
 }
+
+/* Comienza diseño de app */
+.app {
+    width: 100%;
+    height: 109px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--cultured);
+    color: var(--davys-grey);
+    font-size: 1.3rem;
+}
+
+.app__download {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 15px auto;
+}
+
+.app__logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.app__logo-svg {
+    max-width: 100%;
+    height: auto;
+}
+
+.app__title {
+    font-weight: 700;
+}
+
+.app__info {
+    text-align: center;
+    margin: 0 10px 15px 10px ;
+}
+
+.app__stores {
+    display: flex;
+    list-style: none;
+}
+
+.app__icon {
+    margin-right: 10px;
+}
